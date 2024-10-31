@@ -38,7 +38,6 @@ class ImageLabel(tk.Label):
             self.config(image=self.frames[self.loc])
             self.after(self.delay, self.next_frame)
 
-
 root = tk.Tk()
 lbl = ImageLabel(root)
 lbl.pack()
